@@ -7,7 +7,17 @@
 body {
     font-family: tahoma;
 }
-
+.api_btn{
+    color:#fff;
+    background-color: rgb(10, 172, 118);;
+    margin:0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    text-transform: uppercase;
+    
+}
 /* ==========design part=========== */
 
 ul {
