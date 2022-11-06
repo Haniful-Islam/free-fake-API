@@ -1,16 +1,15 @@
 function handleAlbumClick(){
     fetch('https://jsonplaceholder.typicode.com/albums')
     .then(res => res.json())
-    .then(data => displayAlbum(data))
+    .then(data => displayUsers(data))
 }
 
-function displayAlbum (albums){
-    
+function displayUsers (albums){
     const commentsContainer = document.getElementById('albums-container');
     commentsContainer.classList.add('albums')
 
     for(const album of albums.slice(0,10) ){
-    //    console.log(post.length);
+    //    console.log(albums.length);
     const div = document.createElement('div');
     div.classList.add('album')
     const h3 = document.createElement('h3');

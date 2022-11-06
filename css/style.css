@@ -96,3 +96,31 @@ ul li a {
     padding: 10px;
     margin: 5px;
 }
+
+/* ================todos=========== */
+.todos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.todo{
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    background-color: rgb(10, 172, 118);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* ==============users============== */
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.user{
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    background-color: rgb(10, 172, 118);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
