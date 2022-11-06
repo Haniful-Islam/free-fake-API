@@ -7,6 +7,7 @@
 body {
     font-family: tahoma;
 }
+
 /* ==========design part=========== */
 
 ul {
@@ -15,22 +16,22 @@ ul {
     padding: 0 100px;
     height: 100px;
     justify-content: flex-end;
-    align-items:center
-    
-    
+    align-items: center
 }
 
 ul li {
     list-style: none;
     margin-right: 20px;
-    
+
 }
-ul li a{
-    color:#fff;
+
+ul li a {
+    color: #fff;
     text-decoration: none;
-   
-    
+
+
 }
+
 /* =============Posts============ */
 .posts {
     display: grid;
@@ -40,7 +41,7 @@ ul li a{
 .post {
     border: 2px solid goldenrod;
     border-radius: 15px;
-    background-color: rgba(165, 42, 42, 0.751);
+    background-color: rgb(10, 172, 118);
     color: #fff;
     padding: 10px;
     margin: 5px;
@@ -65,4 +66,33 @@ ul li a{
     margin: 5px;
 }
 
+/* =========comments========== */
 
+.comments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.comment {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    background-color: rgb(10, 172, 118);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* albums */
+.albums {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.album {
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    background-color: rgb(10, 172, 118);
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+}
